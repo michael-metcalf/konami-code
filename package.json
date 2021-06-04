@@ -1,5 +1,24 @@
 {
-  "dependencies": {
+  "name": "konamiCode",
+  "homepage": "https://github.com/michael-metcalf/konami-code#readme",
+  "version": "4.5.6x",
+  "description": "Learn the Konami Code and never use this tool again",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "pre-commit": "pretty-quick --staged --no-restage",
+    "pre-push": "npm run test",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "preversion": "npm test",
+    "postversion": "git push origin --tags --no-verify",
+    "test": "mocha"
+  },
+  "author": "michael-metcalf",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
     "chai": "^4.3.4",
     "husky": "^6.0.0",
     "mocha": "^8.4.0",
