@@ -2,7 +2,7 @@
   "name": "konamiCode",
   "homepage": "https://github.com/michael-metcalf/konami-code#readme",
   "version": "4.5.6x",
-  "description": "Learn the Konami Code and never use this tool again",
+  "description": "Learn the Konami Code and never use this tool again 😎",
   "main": "index.js",
   "private": false,
   "scripts": {
