@@ -18,9 +18,6 @@
     "cheat",
     "mikemettech"
   ],
-  "files": [
-    ""
-  ],
   "scripts": {
     "pre-commit": "pretty-quick --staged --no-restage",
     "pre-push": "npm run test",
