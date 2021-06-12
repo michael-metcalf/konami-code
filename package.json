@@ -1,10 +1,13 @@
 {
-  "name": "konamiCode",
-  "homepage": "https://github.com/michael-metcalf/konami-code#readme",
+  "name": "Konami Code",
+  "homepage": "https://github.com/michael-metcalf/konamicode#readme",
   "version": "4.5.6x",
   "description": "Learn the Konami Code and never use this tool again 😎",
   "main": "index.js",
   "private": false,
+  "test command": "mocha",
+  "git repository": "https://github.com/michael-metcalf/konamicode",
+  "keywords": ["konami", "code", "konami code", "konami command", "gradius", "contra", "castlevania", "cheat"],
   "scripts": {
     "pre-commit": "pretty-quick --staged --no-restage",
     "pre-push": "npm run test",
