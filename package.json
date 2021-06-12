@@ -1,5 +1,5 @@
 {
-  "name": "konami-code",
+  "name": "mikemettech-konami-code",
   "homepage": "https://github.com/michael-metcalf/konamicode#readme",
   "version": "4.5.6x",
   "description": "Learn the Konami Code and never use this tool again 😎",
@@ -7,11 +7,20 @@
   "private": false,
   "test command": "mocha",
   "git repository": "https://github.com/michael-metcalf/konamicode",
-  "keywords": ["konami", "code", "konami code", "konami command", "gradius", "contra", "castlevania", "cheat"],
+  "keywords": [
+    "konami",
+    "code",
+    "konami code",
+    "konami command",
+    "gradius",
+    "contra",
+    "castlevania",
+    "cheat"
+  ],
   "scripts": {
     "pre-commit": "pretty-quick --staged --no-restage",
     "pre-push": "npm run test",
-    "postinstall": "husky install",
+    "_postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "preversion": "npm test",
