@@ -1,7 +1,7 @@
 {
   "name": "mikemettech-konami-code",
   "homepage": "https://github.com/michael-metcalf/konamicode#readme",
-  "version": "4.5.6x",
+  "version": "4.5.6",
   "description": "Learn the Konami Code and never use this tool again 😎",
   "main": "index.js",
   "private": false,
@@ -18,7 +18,9 @@
     "cheat",
     "mikemettech"
   ],
-  "files": ["."],
+  "files": [
+    "."
+  ],
   "scripts": {
     "pre-commit": "pretty-quick --staged --no-restage",
     "pre-push": "npm run test",
