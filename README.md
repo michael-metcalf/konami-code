@@ -1,5 +1,6 @@
 # konami-code
 
+The "Konami Code" is a classic video gmae cheat code that was primarily available in games produced by the video game developer and publisher Konami, such as Gradius, Contra, and Castlevania.
 ## Learn the Konami Code and never use this tool again 😎
 
 Having a hard time remembering the classic Konami Code? <br>
