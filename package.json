@@ -15,7 +15,8 @@
     "gradius",
     "contra",
     "castlevania",
-    "cheat"
+    "cheat",
+    "mikemettech"
   ],
   "scripts": {
     "pre-commit": "pretty-quick --staged --no-restage",
