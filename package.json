@@ -36,5 +36,8 @@
     "mocha": "^8.4.0",
     "pinst": "^2.1.6",
     "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "np": "^7.5.0"
   }
 }
