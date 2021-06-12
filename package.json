@@ -30,7 +30,6 @@
   },
   "author": "michael-metcalf",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "chai": "^4.3.4",
     "husky": "^6.0.0",
