@@ -1,4 +1,4 @@
-# konami-code
+# konamicode
 
 ## Learn the Konami Code and never use this tool again 😎
 
