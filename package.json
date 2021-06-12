@@ -19,7 +19,7 @@
     "mikemettech"
   ],
   "files": [
-    "."
+    ""
   ],
   "scripts": {
     "pre-commit": "pretty-quick --staged --no-restage",

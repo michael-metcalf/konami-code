@@ -15,7 +15,7 @@ If this sounds like you, then install the mikemettech-konami-code NPM package fo
 
 First, install the mikemettech-konami-code package using NPM:
 ```
-npm install mikemettech-konami-code
+npm i mikemettech-konami-code
 ```
 Next, import the package into your project:
 
